@@ -8,7 +8,7 @@
 * 
 *  Name: Wan-Hua Wu          Student ID: 152921227          Date: 2024-06-13
 *
-*  Published URL: ___________________________________________________________
+*  Published URL: vintage-lego.vercel.app
 *
 ********************************************************************************/
 const legoData = require("./modules/legoSets");
