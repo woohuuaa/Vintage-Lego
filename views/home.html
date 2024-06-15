@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="wanhuawu" />
+    <title>Lego Collection | Home</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <style>
+      .card-actions {
+        padding: 3px;
+      }
+      .card-body {
+        padding: 10px; 
+      }
+    </style>
+</head>
+
+<body tabindex="-1">
+  <div class="navbar bg-base-100">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl" href="/">Lego Collection</a>
+    </div>
+
+    <div class="dropdown">
+      <label class="btn btn ghost sm:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+        </svg>
+      </label>
+      <ul tabindex="0" class="menu menu-sm dropdown-content right-m mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="/about">About</a></li>
+        <li>
+          <details>
+            <summary>
+              Theme
+            </summary>
+            <ul class="p-2 bg-base-100">
+              <li><a href="/lego/sets?theme=technic">Technic</a></li>
+              <li><a href="/lego/sets?theme=classic town">Classic Town</a></li>
+              <li><a href="/lego/sets?theme=supplemental">Supplemental</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="navbar-center hidden sm:flex">
+    <ul tabindex="0" class="menu menu-horizontal px-1">
+      <li><a href="/about">About</a></li>
+      <li>
+        <details>
+          <summary>
+            Theme
+          </summary>
+          <ul class="p-2 bg-base-100">
+            <li><a href="/lego/sets?theme=technic">Technic</a></li>
+            <li><a href="/lego/sets?theme=classic town">Classic Town</a></li>
+            <li><a href="/lego/sets?theme=supplemental">Supplemental</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+
+  <br />
+
+  <div class="container mx-auto">
+    <div class="hero bg-base-200 rounded-lg p-6">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bolf">Hello LEGO Lovers</h1>
+          <p class="py-6">Exploring Imagination with Vintage LEGO Sets!</p>
+          <a href="/lego/sets" class="btn btn-primary mr-4">Get Started</a>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <!-- cards for some sets -->
+    <div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure>
+          <img class="w-full" src="https://cdn.rebrickable.com/media/sets/022-1.jpg" alt="Lego Gear" />
+        </figure>
+        <div class="card-body p-4">
+          <h2 class="card-title">Basic Building Set</h2>
+          <p>This Set is an extremely old and very rare LEGO set released in 1968.</p>
+          <div class="card-actions justify-end">
+            <a href="/lego/sets/022-1" class="btn btn-primary mr-4">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure>
+          <img class="w-full" src="https://cdn.rebrickable.com/media/sets/028-1.jpg" alt="Lego Gear" />
+        </figure>
+        <div class="card-body p-4">
+          <h2 class="card-title">Nursery Furniture</h2>
+          <p>This set was released in North America(USA/CAN) by Samsonite in 1965.</p>
+          <div class="card-actions justify-end">
+            <a href="/lego/sets/028-1" class="btn btn-primary mr-4">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure>
+          <img class="w-full" src="https://cdn.rebrickable.com/media/sets/005-2.jpg" alt="Lego Gear" />
+        </figure>
+        <div class="card-body p-4">
+          <h2 class="card-title">Discovery Set</h2>
+          <p>This Set was a extremely rare, 328 piece Samsonite set released in 1967.</p>
+          <div class="card-actions justify-end">
+            <a href="/lego/sets/005-2" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
