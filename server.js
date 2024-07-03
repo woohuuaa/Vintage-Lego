@@ -23,8 +23,8 @@ app.use(express.static('public'));
 
 app.set('views', __dirname + '/views');
 
-// Serve static files from the 'src' directory
-app.use(express.static(path.join(__dirname, 'src')));
+// // Serve static files from the 'src' directory
+// app.use(express.static(path.join(__dirname, 'src')));
 
 // routes you define, homepage route
 app.get('/', (req, res) => {
