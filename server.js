@@ -21,6 +21,8 @@ const HTTP_PORT = process.env.PORT || 8080; // assign a port (what port this app
 // middleware
 app.use(express.static('public'));
 
+app.set('views', __dirname + '/views');
+
 // Serve static files from the 'src' directory
 app.use(express.static(path.join(__dirname, 'src')));
 
