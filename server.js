@@ -69,6 +69,10 @@ app.get("/lego/sets/:num", async (req, res) => {
     }
 });
 
+app.get('/css/main.css', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/css/main.css'));
+});
+
 app.use((req, res, next) => {
     res.status(404).sendFile(path.join(__dirname, "/views/404.html"));
 });
